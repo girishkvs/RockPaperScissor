@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/MultiPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/SinglePayer"
+        android:layout_alignRight="@+id/SinglePayer"
+        android:layout_below="@+id/SinglePayer"
+        android:layout_marginTop="22dp"
+        android:text="Multi Player" />
+
+    <Button
+        android:id="@+id/SinglePayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="152dp"
+        android:text="Single Player" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/SinglePayer"
+        android:layout_alignRight="@+id/SinglePayer"
+        android:layout_marginBottom="78dp"
+        android:text="Select Game Mode"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
